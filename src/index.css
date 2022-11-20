@@ -93,6 +93,7 @@ a:hover {
 
 header {
   background: var(--dark);
+  display: inline;
 }
 
 header a {
@@ -294,7 +295,7 @@ a {
   color: var(--secondary);
 }
 
-/*body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -306,4 +307,4 @@ a {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-} ./
+} */
