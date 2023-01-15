@@ -7,12 +7,12 @@ import Gallery from './components/Gallery';
 function App() {
   const [categories] = useState([
     {
-      name: 'Commercial',
+      name: 'commercial',
       description: 'Photos of grocery stores, food trucks, and other commercial projects'
     },
-    { name: 'Portraits', description: 'Portraits of people in my life' },
-    { name: 'Food', description: 'Delicious delicacies' },
-    { name: 'Landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' }
+    { name: 'portraits', description: 'Portraits of people in my life' },
+    { name: 'food', description: 'Delicious delicacies' },
+    { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' }
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
