@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
 import Gallery from './components/Gallery';
-//import './App.css'; no idea why this is here
+import ContactForm from './components/ContactForm';
 
 function App() {
   const [categories] = useState([
@@ -25,6 +25,7 @@ function App() {
         currentCategory={currentCategory}
       ></Nav>
       <main>
+      <ContactForm></ContactForm>
         <Gallery
           currentCategory={currentCategory}
         ></Gallery>
