@@ -1,7 +1,6 @@
 import React from 'react';
 import coverImage from '../../assets/cover/cover-image.jpg';
 
-//? check to see if i can use '' instead of "" for the id
 function About() {
   return (
     <section className='my-5'>
