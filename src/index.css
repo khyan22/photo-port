@@ -6,7 +6,7 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #F3A847;
+  --secondary: #F3A847; /*F3A847*/
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #000000;
@@ -109,7 +109,7 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  background-color: var(--primary); /*! change to secondary*/
 }
 
 button:hover {
@@ -143,7 +143,7 @@ input {
 }
 
 input:focus {
-  border: 1px solid var(--secondary);
+  border: 1px solid var(--primary); /*!change to --secondary*/
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
@@ -292,5 +292,5 @@ a {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: var(--primary);/*! change to --secondary*/
 }
