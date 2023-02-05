@@ -30,7 +30,7 @@ function App() {
       ></Nav>
       <main>
         {/*The ! and : is called the ternary operator and it works like an if else statement, used for conditional rendering in jsx*/}
-        {/*explanation: if contactSelected is false then 1st fragment if true 2nd fragment(the "<> </>" is a fragment*/}
+        {/*explanation: if contactSelected is false then 1st fragment, if true 2nd fragment(the "<> </>" is a fragment*/}
         {!contactSelected ? (
           <>
             <Gallery currentCategory={currentCategory}></Gallery>
