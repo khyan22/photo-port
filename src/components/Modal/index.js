@@ -1,11 +1,9 @@
 import React from 'react';
 
-function Modal({ currentPhoto, setIsModalOpen }) {
+function Modal({ currentPhoto, onClose }) {
   const {name, category, description, index} = currentPhoto;
 
-  function btnClick() {
-    setIsModalOpen(false)
-  }
+
 
   return(
     <div className='modalBackdrop'>
@@ -19,7 +17,7 @@ function Modal({ currentPhoto, setIsModalOpen }) {
         <p>
           {description}
         </p>
-        <button type='button' onClick={btnClick}>
+        <button type='button' onClick={onClose}>
           Close
         </button>
       </div>
